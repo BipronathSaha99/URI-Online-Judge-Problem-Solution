@@ -1,0 +1,7 @@
+# >>-------uri online judge----------------<<
+# -------------@problem 1002-------------#
+# >>----------- area of circle ---------<<
+pi=3.14159
+R=float(input())
+A=pi*R**2
+print("A=%0.4f"%A)
