@@ -1,0 +1,10 @@
+# >>--------------Problem Solution--------------------------<<
+# >>--------------URI Online Judge--------------------------<<
+# >>-------------- Simple Sum-------------------------------<<
+# >>------------- Take two variables------------------------<<
+A=int(input())
+B=int(input())
+# >>------------Add the integers and assign the value in SOMA Variable-----------------<<
+SOMA = A+B
+# >>------------------Print the SOMA---------------------------------------------------<<
+print("SOMA = {}".format(SOMA))
