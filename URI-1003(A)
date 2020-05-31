@@ -1,0 +1,10 @@
+# >>--------------Problem Solution--------------------------<<
+# >>--------------URI Online Judge--------------------------<<
+# >>-------------- Simple Sum-------------------------------<<
+def sum(A,B):
+    sum=A+B
+    print("SOMA = {}".format(sum))
+
+A=int(input())
+B=int(input())
+sum(A,B)
