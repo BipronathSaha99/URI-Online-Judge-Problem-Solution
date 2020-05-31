@@ -1,0 +1,14 @@
+#  >>-----------------------Problem Solving------------------------------------<<
+# >>------------------------ URI Online Judge-----------------------------------<<
+# >>----------------------- Difference------------------------------------------<<
+
+def Difference(A,B,C,D):
+    dif=(A*B-C*D)
+    print("DIFERENCA = {}".format(dif))
+
+A=int(input())
+B=int(input())
+C=int(input())
+D=int(input())
+
+Difference(A,B,C,D)
