@@ -1,0 +1,9 @@
+#-------------------Problem Solve------------------------#
+#--------------------@URI Online Judge--------------------#
+#------------------Problem no. 1001-------------#
+def sum(A,B):
+    s= A+B
+    print("X = {}".format(s))
+A=int(input())
+B=int(input())
+sum(A,B)
