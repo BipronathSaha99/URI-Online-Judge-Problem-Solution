@@ -1,0 +1,10 @@
+# >>------------------Problem Solving---------------------------<<
+# >>------------------ URI Online Judge-------------------------<<
+# >>------------------Salary------------------------------------<<
+employee_num=input()
+worked_hour=int(input())
+amount_per_hour=float(input())
+salary= worked_hour*amount_per_hour
+    
+print("NUMBER = {}".format(employee_num))
+print("SALARY = U$ {:0.2f}".format(salary))
