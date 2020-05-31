@@ -1,0 +1,11 @@
+# >>-------------------------Problem Solution--------------------------------<<
+# >>------------------------URI Online Judge---------------------------------<<
+# >>----------------------- Problem no-1009---------------------------------<<
+# >>----------------------Salary with Bonus---------------------------------<<
+
+employees_first_name=input()
+sellers_salary=float(input())
+total_value=float(input())
+
+Total= sellers_salary+(total_value*0.15)
+print("TOTAL = R$ {:0.2f}".format(Total))
