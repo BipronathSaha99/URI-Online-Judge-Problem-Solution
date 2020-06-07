@@ -1,0 +1,35 @@
+# >>---------Problem Solution-------------<<
+# >>---------uri online judge--------------<<
+# >>--------- 1042------------------<<
+
+values = [int(x) for x in input().split()]
+a = int(values[0])
+b = int(values[1])
+c = int(values[2])
+if (a < b and a < c):
+	min = a
+	if (b < c):
+		mid = b
+		max = c
+	else:
+		mid = c
+		max = b
+elif (b < a and b < c):
+	min = b
+	if (c < a):
+		mid = c
+		max = a
+	else:
+		mid = a
+		max = c
+elif (c < a and c < b):
+	min = c
+	if (a < b):
+		mid = a
+		max = b
+	else:
+		mid = b
+		max = a
+print("%i\n%i\n%i" % (min, mid, max))
+print()
+print("%i\n%i\n%i" % (a, b, c))
