@@ -1,0 +1,31 @@
+# >>----------------------Problem Solving-----------------------------<<
+# >>----------------------uri online judge-----------------------------<<
+# >>----------------------Problem 1040-----------------------------<<
+
+
+N_1,N_2,N_3,N_4 = input().split()
+N_1 = float(N_1)
+N_2 = float(N_2)
+N_3 = float(N_3)
+N_4 = float(N_4)
+avg = ((N_1*2)+(N_2*3)+(N_3*4)+(N_4*1))/(10)
+if (avg>7):
+    print('Media:','{:.1f}'.format(avg))
+    print('Aluno aprovado.')
+elif (avg<5):
+    print('Media:','{:.1f}'.format(avg))
+    print('Aluno reprovado.')
+elif (avg>=5) and (avg<=6.9):
+    print('Media:','{:.1f}'.format(avg))
+    print('Aluno em exame.')
+    one_more = input()
+    one_more = float(one_more)
+    print('Nota do exame:',one_more)
+    media = (avg+one_more)/2
+    if (media>5):
+        print('Aluno aprovado.')
+        print('Media final:','{:.1f}'.format(media))
+    else:
+        print('Error')
+else:
+    print('Error')
