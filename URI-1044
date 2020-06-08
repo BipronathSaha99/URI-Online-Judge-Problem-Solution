@@ -1,0 +1,17 @@
+# >>----------------------Problem Solving-----------------------------<<
+# >>----------------------uri online judge-----------------------------<<
+# >>----------------------Problem 1044-----------------------------<<
+
+# Read two integer values (A and B). After, the program should 
+# print the message "Sao Multiplos" (are multiples) or
+#  "Nao sao Multiplos" (aren’t multiples), corresponding to the read values.
+
+x=input().split()
+A=int(x[0])
+B=int(x[1])
+
+if (A%B==0 or B%A==0):
+    print("Sao Multiplos")
+else:
+    print("Nao sao Multiplos")
+
