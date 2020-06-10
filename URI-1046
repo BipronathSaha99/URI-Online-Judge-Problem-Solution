@@ -1,0 +1,15 @@
+# >>----------------------Problem Solution----------------------------------<<
+# >>---------------------uri online judge-----------------------------------<<
+# >>-------------------- Game Time------------------------------------------<<
+# >>--------------------Problem 1046----------------------------------------<<
+
+a,b=list(map(int,input().split()))
+
+if (a==b):
+    print("O JOGO DUROU 24 HORA(S)")
+if (b>a):
+    T=b-a
+    print("O JOGO DUROU {} HORA(S)".format(T))
+if(a>b):
+    T=(b+24)-a
+    print("O JOGO DUROU {} HORA(S)".format(T))
