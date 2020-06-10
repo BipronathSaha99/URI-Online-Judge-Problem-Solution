@@ -1,0 +1,30 @@
+# >>---------------Problem Solution-----------------<<
+# >>--------------uri online judge-------------------<<
+# >>-----------------Salary Increase-----------------<<
+
+s=float(input())
+if(s>=0 and s<=400.00):
+    s1=s*0.15
+    s2=s1+s
+    i=15
+elif (s>=400.01 and s<=800.00):
+    s1=s*0.12
+    s2=s1+s
+    i=12
+elif(s>=800.01 and s<=1200.00):
+    s1=s*0.10
+    s2=s1+s
+    i=10
+elif(s>=1200.01 and s<=2000.00):
+    s1=s*0.07
+    s2=s1+s
+    i=7
+elif(s>=2000.00):
+    s1=s*0.04
+    s2=s1+s
+    i=4
+
+print("Novo salario: {:0.2f}".format(s2))
+print("Reajuste ganho: {:0.2f}".format(s1))
+print("Em percentual: {} {}".format(i,"%"))
+
