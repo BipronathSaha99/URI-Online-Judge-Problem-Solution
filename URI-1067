@@ -1,0 +1,14 @@
+# >>------------------uri online judge-----------------------------------------------<<
+# >>--------------------Odd Numbers--------------------------------------------------<<
+
+class Odd:
+    def __init__(self,x):
+        self.x=x
+    def odd(self):
+        for self.i in range(1,(self.x+1)):
+            if self.i%2!=0:
+                print(self.i)
+                     
+x=int(input())
+obj=Odd(x)
+obj.odd()
