@@ -1,0 +1,24 @@
+# >>------------------uri online judge-----------------------------------------------<<
+# >>-----------------Even or Odd----------------------------------------------------<<
+
+#input
+n=int(input())
+#logic
+for i in range(0,n):
+    temp=int(input())
+    if temp==0:
+        print("NULL")
+    else:
+        if temp>0:
+            if temp%2==0:
+                print("EVEN POSITIVE")
+            else:
+                print("ODD POSITIVE")
+        else:
+            if temp%2==0:
+                print("EVEN NEGATIVE")
+            else:
+                print("ODD NEGATIVE")
+
+        
+    
