@@ -1,0 +1,19 @@
+#>>---------------uri online juge-------------------------------------<<
+#>>---------------Bhaskara's Formula-----------------------------------<<
+
+import math
+#input
+values_float=[float(x) for x in input().split()]
+a=values_float[0]
+b=values_float[1]
+c=values_float[2]
+#logic
+try:
+     d=(pow(b,2)-4*a*c)
+     r1=(-b+math.sqrt(d))/(2*a)
+     r2=(-b-math.sqrt(d))/(2*a)
+     print("R1 = %0.5f"%r1)
+     print("R2 = %0.5f"%r2)
+      
+except:
+    print("Impossivel calcular")
