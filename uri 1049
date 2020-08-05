@@ -1,0 +1,40 @@
+# >>-------------------problem solving------------------<<
+# >>-------------uri online judge--------------------------<<
+# >>-----------problem 1049--------------------------------<<
+
+read1=input()
+read2=input()
+read3=input()
+
+# create condition
+# conditions for vertebrado animals
+if ( read1=='vertebrado' and read2=='ave' and       read3=='carnivoro'):
+	print('aguia')
+	
+elif  ( read1=='vertebrado' and read2=='ave' and read3=='onivoro'):
+	print('pomba')
+	
+elif  ( read1=='vertebrado' and read2== 'mamifero' and read3=='onivoro'):
+	print('homem')
+
+elif  ( read1=='vertebrado' and read2== 'mamifero' and read3=='herbivoro'):
+	print('vaca')
+	
+#conditions for invertebrado animals
+if  ( read1=='invertebrado' and read2== 'inseto' and read3=='hematofago'):
+	print('pulga')
+	
+elif  ( read1=='invertebrado' and read2== 'inseto' and read3=='herbivoro'):
+	print('lagarta')
+	
+	
+elif  ( read1=='invertebrado' and read2== 'anelideo' and read3=='hematofago'):
+	print('sanguessuga')
+	
+	
+elif  ( read1=='invertebrado' and read2== 'anelideo' and read3=='onivoro'):
+	print('minhoca')
+	
+	
+	
+		
