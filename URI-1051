@@ -1,0 +1,26 @@
+# >>--------uri online judge---------<<
+# problem 1051
+#Taxes
+#input
+s = float(input())
+#logic
+
+if s <= 2000.00:
+	print("Isento")
+
+elif s <= 3000.00:
+	s = s - 2000.00
+	s = (s * 8) / 100
+	print("R$ %0.2f" % s)
+
+elif s <= 4500.00:
+	s = s - 3000.00
+	s = (s * 18) / 100
+	s += 80
+	print("R$ %0.2f" % s)
+
+else:
+	s = s - 4500.00
+	s = (s * 28) / 100
+	s = s + 80 + 270
+	print("R$ %0.2f" % s)
