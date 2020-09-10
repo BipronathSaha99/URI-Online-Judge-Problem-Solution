@@ -1,0 +1,12 @@
+# >>--------uri online judge--------------<<
+# >>--------problem 1078  
+#input
+n=int(input())
+#counter value
+i=1
+#apply loop 
+while i<=10:
+	#output
+	print(str(n)+'x'+str(i)+'='+str(n*i))
+	#increment
+	i=i+1
